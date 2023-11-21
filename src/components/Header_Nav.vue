@@ -13,5 +13,6 @@
     background-color: black;
     color: white;
     text-align: center!important;
+    width: 100%;
 }
 </style>
