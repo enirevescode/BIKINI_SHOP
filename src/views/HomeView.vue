@@ -1,9 +1,11 @@
 <script setup>
+import Hero_Accueil from '../components/Hero_Accueil.vue';
+
 
 </script>
 
 <template>
-  <main>
-    <TheWelcome />
-  </main>
+
+  <Hero_Accueil/>
+
 </template>
