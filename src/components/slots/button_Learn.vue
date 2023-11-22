@@ -1,8 +1,9 @@
 <template>
 
-<button class="btn_base">LEARN MORE
-   <slot ></slot>
-</button>
+<v-col cols="4" sm="3" md="2">
+        <v-btn block rounded="xl" size="x-large" class="btn_base">LEARN MORE</v-btn>
+        <slot></slot>
+</v-col>
 
 
 </template>
@@ -10,7 +11,5 @@
 .btn_base {
    background-color: black;
    color: white;
-   width: 50px;
-   border-radius: 10%;
 }
 </style>

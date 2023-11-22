@@ -7,22 +7,23 @@ import button_Learn from './slots/button_Learn.vue'
         <div class="card__Accueil">
             <h3 class="ss_titre">SUMMER IS HERE</h3>
             <h2 class="titre">BIKINI EVERYWHERE</h2>
-            
+           
                 <p class="para__Accueil">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore sed consequuntur error repudiandae numquam deserunt quisquam repellat!
+                    <v-divider :thickness="3" class="border-opacity-25"></v-divider>
+                    <br>
+                    <br>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore sed consequuntur error repudiandat!
                 </p>
-        
-       <button_Learn/>
-       <v-col cols="12" sm="6" md="4">
-        <v-btn block rounded="xl" size="x-large">Rounded xl</v-btn>
-      </v-col>
+                <br>
+            <button_Learn/>
+
         </div>
     </div>
 </template>
 <style scoped>
 #Hero_Accueil--img{
    background-image: url('src/assets/img/Piscine.webp');
-   height: 800px;
+   height: 850px;
 }
 
 .card__Accueil {
@@ -31,7 +32,7 @@ import button_Learn from './slots/button_Learn.vue'
 }
 
 .para__Accueil {
-    max-width: 400px;
+    max-width: 500px;
     font-weight: 500;
 }
 .ss_titre {
@@ -42,6 +43,6 @@ import button_Learn from './slots/button_Learn.vue'
 .titre {
     font-size: 80px;
     font-weight: 700;
-    
+    color: black;
 }
 </style>
