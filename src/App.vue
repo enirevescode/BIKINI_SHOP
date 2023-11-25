@@ -26,20 +26,21 @@ import Header_Nav from './components/Header_Nav.vue';
 </template>
 
 <style scoped>
-
+.v-container {
+  height: 90px;
+}
 .logo {
-  display: block;
-  margin: 0 auto 2rem;
+  /* display: block;
+  margin: 0 auto 2rem; */
   float: right;
-  width: 239px;
-  height: 60px;
 }
 
 .left{
   display: inline-flex;
-  vertical-align: middle;
+  vertical-align: auto;
   text-decoration: none;
-  float: inline-end; 
+  float: inline-end;
+  position: relative;
 }
 .active, a {
   font-weight: 500;
@@ -47,6 +48,7 @@ import Header_Nav from './components/Header_Nav.vue';
   text-decoration: none;
   font-size: 15px;
   letter-spacing: 1.4;
+  
 }
 
 </style>
