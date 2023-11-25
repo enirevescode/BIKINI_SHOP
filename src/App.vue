@@ -3,26 +3,24 @@ import { RouterLink, RouterView } from 'vue-router'
 
 import Header_Nav from './components/Header_Nav.vue';
 
-
-
-
 </script>
 <template>
 <header>
   <Header_Nav/>
 </header>
 
-      <nav>
-        <img alt="Logo" src="blogo.webp" class="w-full md:w-10rem border-round shadow-4" aria-haspopup="true"/>
-        <div class="left">
-        <RouterLink to="/HOME">HOME</RouterLink>
-        <RouterLink to="/">OUR COLLECTION</RouterLink>
-        <RouterLink to="/">OUR NEWS</RouterLink>
-        <RouterLink to="/">CONTACT US</RouterLink>
+    <nav>
+      <v-container>
+        <img alt="Logo" src="./assets/img/blogo.webp" class="w-full md:w-5rem border-round shadow-4" aria-haspopup="true"/>
+        <div class="left ml-n16">
+            <RouterLink active-class="active" to="/">HOME</RouterLink>
+            <RouterLink active-class="active" to="/">OUR COLLECTION</RouterLink>
+            <RouterLink active-class="active" to="/">OUR NEWS</RouterLink>
+            <RouterLink active-class="active" to="/">CONTACT US</RouterLink>
         </div>
-      </nav>
+      </v-container>
+    </nav>
  
-  
   <RouterView />
 
 </template>
@@ -32,11 +30,23 @@ import Header_Nav from './components/Header_Nav.vue';
 .logo {
   display: block;
   margin: 0 auto 2rem;
+  float: right;
+  width: 239px;
+  height: 60px;
 }
 
-.left {
-  display: flex;
-  float: inline-end;
-
+.left{
+  display: inline-flex;
+  vertical-align: middle;
+  text-decoration: none;
+  float: inline-end; 
 }
+.active, a {
+  font-weight: 500;
+  color: #48dbfb;
+  text-decoration: none;
+  font-size: 15px;
+  letter-spacing: 1.4;
+}
+
 </style>
