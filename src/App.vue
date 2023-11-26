@@ -48,7 +48,7 @@ import Header_Nav from './components/Header_Nav.vue';
   text-decoration: none;
   font-size: 15px;
   letter-spacing: 1.4;
-  margin-right: 10px;
+  margin-right: 15px;
 }
 
 </style>
