@@ -11,8 +11,10 @@ import Header_Nav from './components/Header_Nav.vue';
 
     <nav>
       <v-container>
+        <div class="nav_left--content">
         <img alt="Logo" src="./assets/img/blogo.webp" class="w-full md:w-5rem border-round shadow-4" aria-haspopup="true"/>
-        <div class="left ml-n16">
+        </div>
+        <div class="nav_right--content ml-n16">
             <RouterLink active-class="active" to="/">HOME</RouterLink>
             <RouterLink active-class="active" to="/">OUR COLLECTION</RouterLink>
             <RouterLink active-class="active" to="/">OUR NEWS</RouterLink>
@@ -28,19 +30,17 @@ import Header_Nav from './components/Header_Nav.vue';
 <style scoped>
 .v-container {
   height: 90px;
-}
-.logo {
-  /* display: block;
-  margin: 0 auto 2rem; */
-  float: right;
+  display: flex;
+  justify-content: space-between;
 }
 
-.left{
-  display: inline-flex;
-  vertical-align: auto;
-  text-decoration: none;
-  float: inline-end;
-  position: relative;
+.nav_left--content{
+  display: flex;
+  align-items: center;
+}
+.nav_right--content{
+  display: flex;
+  align-items: center;
 }
 .active, a {
   font-weight: 500;
@@ -48,7 +48,7 @@ import Header_Nav from './components/Header_Nav.vue';
   text-decoration: none;
   font-size: 15px;
   letter-spacing: 1.4;
-  
+  margin-right: 10px;
 }
 
 </style>

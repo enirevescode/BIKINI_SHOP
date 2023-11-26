@@ -27,7 +27,7 @@ import button_Learn from './slots/button_Learn.vue'
 }
 
 .card__Accueil {
-    padding-top: 400px;
+    padding-top: 300px;
     padding-left: 200px;
 }
 
