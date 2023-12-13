@@ -4,35 +4,36 @@ import button_Learn from './slots/button_Learn.vue'
 
 <template>
     <div id="Hero_Accueil--img">
-        <div class="card__Accueil">
-            <h3 class="ss_titre">SUMMER IS HERE</h3>
-            <h2 class="titre">BIKINI EVERYWHERE</h2>
-           
-                <p class="para__Accueil">
-                    <v-divider :thickness="3" class="border-opacity-25"></v-divider>
+        <v-container>
+            <div class="card__Accueil">
+                <h3 class="ss_titre">SUMMER IS HERE</h3>
+                <h2 class="titre">BIKINI EVERYWHERE</h2>
+            
+                    <p class="para__Accueil">
+                        <v-divider :thickness="2" class="border-opacity-25"></v-divider>
+                        <br>
+                        <br>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore sed consequuntur error repudiandat!
+                    </p>
                     <br>
-                    <br>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore sed consequuntur error repudiandat!
-                </p>
-                <br>
-            <button_Learn/>
-
-        </div>
+                <button_Learn/>
+            </div>
+        </v-container>
     </div>
 </template>
 <style scoped>
 #Hero_Accueil--img{
    background-image: url('src/assets/img/Piscine.webp');
-   height: 850px;
+   height: 596px;
 }
 
 .card__Accueil {
-    padding-top: 300px;
-    padding-left: 200px;
+    padding-top: 50px;
+    padding-right: 400px;
 }
 
 .para__Accueil {
-    max-width: 500px;
+    max-width: 400px;
     font-weight: 500;
 }
 .ss_titre {

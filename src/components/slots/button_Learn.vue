@@ -11,5 +11,6 @@
 .btn_base {
    background-color: black;
    color: white;
+   font-size: 0.7rem;
 }
 </style>
