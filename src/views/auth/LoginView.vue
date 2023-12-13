@@ -1,7 +1,19 @@
 <script setup>
+/*import pr le formulaire*/
   import { ref } from 'vue'
-
   const visible = ref(false)
+
+/* modules necessaires pr login => api*/
+import { accountService } from '@/_services'
+
+const login = () => {
+            accountService.login(this.user)
+                .then(res => {
+                    accountService.saveToken(res.data.access_token)
+                    this.$router.push('/admin/dashboard')
+                })
+                .catch(err => console.log(err))
+              }
 </script>
 <template>
     <div>
