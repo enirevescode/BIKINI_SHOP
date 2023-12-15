@@ -6,6 +6,7 @@
 /* modules necessaires pr login => api*/
 import { accountService } from '@/_services'
 
+// eslint-disable-next-line no-unused-vars
 const login = () => {
             accountService.login(this.user)
                 .then(res => {
@@ -71,6 +72,7 @@ const login = () => {
           color="blue"
           size="large"
           variant="tonal"
+
         >
           Log In
         </v-btn>
