@@ -3,9 +3,13 @@
 This template should help get you started developing with Vue 3 Composition API + Vite + vuetify.
 In this appli, we have the front and the connection with a BDD on mongoDB. In this BDD we see a part of users and products.
 
-<img align="center" alt="photo" src="src/assets/img/Screenshot-2023-12-16-at-06-46-52-Bikini.webp" width="700" height="320" />
+<img align="center" alt="photo" src="src/assets/img/Screenshot-2023-12-16-at-07-18-23-Bikini.webp" width="400" height="120" />
+<img align="center" alt="photo" src="src/assets/img/Screenshot-2023-12-16-at-07-20-02-Bikini.webp" width="700" height="320" />
+<img align="center" alt="photo" src="src/assets/img/Screenshot-2023-12-16-at-07-20-35-Bikini.webp" width="700" height="320" />
 
-
+C:\Users\Thomas Magnum\Desktop\BIKINI_SHOP\src\assets\img\
+C:\Users\Thomas Magnum\Desktop\BIKINI_SHOP\src\assets\img\
+C:\Users\Thomas Magnum\Desktop\BIKINI_SHOP\src\assets\img\
 ## Recommended IDE Setup
 
 [VSCode](https://code.visualstudio.com/)
