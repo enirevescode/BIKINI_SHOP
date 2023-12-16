@@ -1,10 +1,14 @@
 # BIKINI_SHOP
 
-This template should help get you started developing with Vue 3 in Vite.
+This template should help get you started developing with Vue 3 Composition API + Vite + vuetify.
+In this appli, we have the front and the connection with a BDD on mongoDB. In this BDD we see a part of users and products.
+
+<img align="center" alt="photo" src="src/assets/img/Screenshot-2023-12-16-at-06-46-52-Bikini.webp" width="700" height="320" />
+
 
 ## Recommended IDE Setup
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+[VSCode](https://code.visualstudio.com/)
 
 ## Customize configuration
 
