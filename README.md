@@ -7,9 +7,7 @@ In this appli, we have the front and the connection with a BDD on mongoDB. In th
 <img align="center" alt="photo" src="src/assets/img/Screenshot-2023-12-16-at-07-20-02-Bikini.webp" width="700" height="320" />
 <img align="center" alt="photo" src="src/assets/img/Screenshot-2023-12-16-at-07-20-35-Bikini.webp" width="700" height="320" />
 
-C:\Users\Thomas Magnum\Desktop\BIKINI_SHOP\src\assets\img\
-C:\Users\Thomas Magnum\Desktop\BIKINI_SHOP\src\assets\img\
-C:\Users\Thomas Magnum\Desktop\BIKINI_SHOP\src\assets\img\
+
 ## Recommended IDE Setup
 
 [VSCode](https://code.visualstudio.com/)
