@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import HomeView from '../views/HomeView.vue'
+import * as Public from '@/views/public'
 //import NotFound from '../views/NotFound.vue'
-import Login from '../views/auth/LoginView.vue'
+import LoginView from '../views/auth/LoginView.vue'
 import { authGuard } from '../_helpers/auth-guard.js'
 
 localStorage.setItem('token', 'marcel')
@@ -11,11 +11,11 @@ const router = createRouter({
   routes: [
     {
       path: '/',
-      name: 'HomeView',
-      component: HomeView,
+      name: 'Public.HomeView',
+      component: Public.HomeView,
     },
     {
-      path: '/login', name: 'Login', component: Login, beforeEnter: authGuard
+      path: '/login', name: 'Login', component: LoginView, beforeEnter: authGuard
     },
     // {
     //   path: '/pathMatch(.*)*', redirect: 'NotFound'
