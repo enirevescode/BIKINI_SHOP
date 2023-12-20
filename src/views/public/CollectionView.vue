@@ -1,4 +1,13 @@
 <script>
+import { produitService } from '@/_services'
+
+export default {
+  mounted() {
+    produitService.getAllProduits()
+      .then(res => console.log(res))
+      .catch(err => console.log(err))
+  }
+}
 
 </script>
 

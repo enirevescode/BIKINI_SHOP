@@ -1,5 +1,5 @@
 <script setup>
-import { RouterLink, RouterView } from 'vue-router'
+import { RouterLink } from 'vue-router'
 
 import Header_Nav from './components/Header_Nav.vue';
 
@@ -15,15 +15,15 @@ import Header_Nav from './components/Header_Nav.vue';
         <img alt="Logo" src="./assets/img/blogo.webp" class="w-full md:w-5rem border-round shadow-4" aria-haspopup="true"/>
         </div>
         <div class="nav_right--content ml-n16">
-            <RouterLink active-class="active" to="/">HOME</RouterLink>
-            <RouterLink active-class="active" to="/">OUR COLLECTION</RouterLink>
+            <RouterLink active-class="active" to="/home">HOME</RouterLink>
+            <RouterLink active-class="active" to="/collection">OUR COLLECTION</RouterLink>
             <RouterLink active-class="active" to="/">OUR NEWS</RouterLink>
             <RouterLink active-class="active" to="/">CONTACT US</RouterLink>
         </div>
       </v-container>
     </nav>
  
-  <RouterView />
+  
 
 </template>
 

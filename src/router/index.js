@@ -10,9 +10,14 @@ const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
-      path: '/',
-      name: 'Public.HomeView',
+      path: '/home',
+      name: 'HomeView',
       component: Public.HomeView,
+    },
+    {
+      path: '/collection',
+      name: 'CollectionView',
+      component: Public.CollectionView,
     },
     {
       path: '/login', name: 'Login', component: LoginView, beforeEnter: authGuard

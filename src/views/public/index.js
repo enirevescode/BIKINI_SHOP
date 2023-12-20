@@ -1,4 +1,5 @@
 import HomeView from './HomeView.vue'
+import Collection from './CollectionView.vue'
 
 
-export { HomeView}
+export { HomeView, Collection }
