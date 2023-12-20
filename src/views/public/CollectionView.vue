@@ -2,6 +2,7 @@
 import { produitService } from '@/_services'
 
 export default {
+  name: 'Collection',
   mounted() {
     produitService.getAllProduits()
       .then(res => console.log(res))
