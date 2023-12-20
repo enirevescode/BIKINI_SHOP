@@ -1,0 +1,9 @@
+/* eslint-disable no-unused-vars */
+//import { ref } from 'vue'
+import { defineStore } from 'pinia'
+
+export const useProductStore = defineStore('products', () => {
+    state: () => ({
+
+    }),
+})

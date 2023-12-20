@@ -1,5 +1,6 @@
 <script>
-
+//import { useProductStore } from '@/stores/products'
+import { mapGetters } from 'pinia'
 </script>
 
 <template>

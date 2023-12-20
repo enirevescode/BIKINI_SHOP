@@ -1,10 +1,12 @@
+<!-- eslint-disable vue/multi-word-component-names -->
 <script>
-import { produitService } from '@/_services'
+import { productService } from '@/_services'
+//import { useProductStore } from '../../stores/products';
 
 export default {
   name: 'Collection',
   mounted() {
-    produitService.getAllProduits()
+    productService.getAllproducts()
       .then(res => console.log(res))
       .catch(err => console.log(err))
   }
