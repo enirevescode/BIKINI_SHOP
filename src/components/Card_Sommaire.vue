@@ -1,6 +1,10 @@
-<script>
-//import { useProductStore } from '@/stores/products'
-import { mapGetters } from 'pinia'
+<script setup>
+
+//import { mapGetters } from 'pinia'
+import { useSommaireStore } from '@/stores/sommaire'
+
+const store = useSommaireStore()
+
 </script>
 
 <template>
@@ -11,7 +15,7 @@ import { mapGetters } from 'pinia'
       image="src/assets/img/20e-odalis_romeo_jai77-dev1.webp"
       theme="dark">
     <v-card-title>
-      category
+      {{ store.sommaire.category }}
     </v-card-title>
     </v-card>
   </template>
